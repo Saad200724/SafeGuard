@@ -1,0 +1,44 @@
+# 🔒 Dependency folders (never push)
+node_modules/
+client/node_modules/
+server/node_modules/
+server/serviceAccountKey.json
+
+# 🏗️ Build folders (Netlify will rebuild from source)
+dist/
+build/
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# 🌐 Netlify generated folder (optional, if using CLI)
+.netlify/
+
+# 🧪 Env files (keep secret)
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+
+# 🗑️ Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 💥 OS/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ⚙️ TypeScript build cache
+*.tsbuildinfo
+
+# 🌀 Replit-specific (if using Replit)
+.replit
+.replit.dbserver/serviceAccountKey.json
+

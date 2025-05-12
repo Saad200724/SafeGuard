@@ -1,0 +1,32 @@
+# Netlify configuration file
+
+[build]
+  # Directory to change to before starting a build
+  base = "/"
+  
+  # Directory that contains the deploy-ready files
+  publish = "dist"
+  
+  # Build command - using our custom build script
+  command = "./netlify/build.sh"
+
+# Handle SPA routing (important for React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
+# Proxy API requests to our Netlify functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# Set environment variables
+[build.environment]
+  NODE_VERSION = "18"
+
+# Set up functions directory if you need serverless functions
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
