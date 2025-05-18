@@ -40,11 +40,11 @@ Parents can customize settings per child, adjusting restrictions based on age, d
 - **React Query**: For efficient data fetching and state management
 
 ### Backend
-- Node.js: JavaScript runtime environment for building server-side logic
-- Express.js: Web framework to handle API routing and middleware
-- Firebase Realtime Database: To store and sync real-time data between devices
-- Firebase Authentication: For managing secure user login and identity
-- Firebase Admin SDK: To access Firebase services securely from the server
+- **Node.js**: JavaScript runtime environment for building server-side logic
+- **Express.js**: Web framework to handle API routing and middleware
+- **Firebase Realtime Database**: To store and sync real-time data between devices
+- **Firebase Authentication**: For managing secure user login and identity
+- **Firebase Admin SDK**: To access Firebase services securely from the server
 
 
 
