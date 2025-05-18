@@ -43,8 +43,8 @@ Parents can customize settings per child, adjusting restrictions based on age, d
 - **Node.js**: For the server environment
 - **Express**: For API routing and middleware
 - **PostgreSQL**: For secure, persistent data storage
-- **Drizzle ORM**: For database interactions
-- **Supabase Auth**: For secure user authentication
+- **Firebase Realtime Database**: For database interactions
+- **Firebase Auth**: For secure user authentication
 
 ## Security and Privacy
 
