@@ -1,2 +1,2 @@
-node_modules
-server/serviceAccountKey.json
+parent_dashboard\node_modules
+parent_dashboard\server\serviceAccountKey.json
