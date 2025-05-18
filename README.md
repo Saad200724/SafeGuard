@@ -1,8 +1,3 @@
-Here’s a polished and professional **README.md structure** for your **SafeGuard** project, formatted for clarity, developer-friendliness, and GitHub best practices:
-
----
-
-```markdown
 # 🛡️ SafeGuard
 
 **SafeGuard** is a complete child monitoring and digital safety system that empowers parents to supervise their child’s digital activity and location in real time.
@@ -14,15 +9,13 @@ Here’s a polished and professional **README.md structure** for your **SafeGuar
 ## 📁 Project Structure
 
 ```
-
 SafeGuard/
-├── parent\_dashboard/     # Web admin dashboard (React + Node.js)
-├── child\_app/            # Android app (Flutter)
+├── parent_dashboard/     # Web admin dashboard (React + Node.js)
+├── child_app/            # Android app (Flutter)
 ├── .gitignore
 ├── .env.example
 └── README.md
-
-````
+```
 
 ---
 
@@ -99,7 +92,7 @@ An Android app that runs on the child’s device to:
 cd parent_dashboard
 npm install
 npm run dev
-````
+```
 
 ### 🔹 Child App Setup
 
@@ -115,15 +108,15 @@ flutter run
 
 ## 📘 Documentation
 
-* [Firebase Setup Guide](https://firebase.google.com/docs/flutter/setup)
-* [Flutter Plugin Docs](https://pub.dev/)
-* [Android Device Admin](https://developer.android.com/guide/topics/admin/device-admin)
+- [Firebase Setup Guide](https://firebase.google.com/docs/flutter/setup)
+- [Flutter Plugin Docs](https://pub.dev/)
+- [Android Device Admin](https://developer.android.com/guide/topics/admin/device-admin)
 
 ---
 
 ## 👤 Author
 
-**Saad200724**
+**Saad200724**  
 GitHub: [github.com/Saad200724](https://github.com/Saad200724)
 
 ---
@@ -131,10 +124,9 @@ GitHub: [github.com/Saad200724](https://github.com/Saad200724)
 ## 📌 Disclaimer
 
 This is an **educational and proof-of-concept project** for:
-
-* Flutter + Firebase integration
-* Real-time communication
-* Building ethical monitoring tools
+- Flutter + Firebase integration
+- Real-time communication
+- Building ethical monitoring tools
 
 Future updates may include AI-driven audio analysis, remote lockdowns, and offline functionality.
 
