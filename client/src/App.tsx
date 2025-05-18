@@ -17,12 +17,14 @@ import BrowsingHistoryPage from "@/pages/browsing-history";
 import SiteBlockerPage from "@/pages/site-blocker";
 import ScreenViewPage from "@/pages/screen-view";
 import AudioListenerPage from "@/pages/audio-listener";
+import AIAssistantPage from "@/pages/ai-assistant";
 import LandingPage from "@/pages/landing";
 import AboutPage from "@/pages/about";
 import FeaturesPage from "@/pages/features";
 import PricingPage from "@/pages/pricing";
 import ContactPage from "@/pages/contact";
 import SettingsPage from "@/pages/settings";
+import FloatingChatbot from "@/components/FloatingChatbot";
 
 function Router() {
   return (
@@ -43,12 +45,15 @@ function Router() {
       <ProtectedRoute path="/site-blocker" component={SiteBlockerPage} />
       <ProtectedRoute path="/screen-view" component={ScreenViewPage} />
       <ProtectedRoute path="/audio-listener" component={AudioListenerPage} />
+      <ProtectedRoute path="/ai-assistant" component={AIAssistantPage} />
       <ProtectedRoute path="/settings" component={SettingsPage} />
       <Route path="/auth/callback" component={AuthCallbackPage} />
       <Route component={NotFound} />
     </Switch>
   );
 }
+
+
 
 function App() {
   return (
@@ -57,6 +62,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <FloatingChatbot />
         </TooltipProvider>
       </AuthProvider>
     </QueryClientProvider>
